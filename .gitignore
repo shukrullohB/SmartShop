@@ -1,0 +1,58 @@
+# IntelliJ IDEA / Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+
+# OS generated files
+.DS_Store
+
+# Build outputs
+/build/
+/captures/
+/**/build/
+
+# External native build
+.externalNative
+.cxx
+
+# Kotlin specific
+*.class
+*.kt~
+*.kts~
+*.log
+
+# Gradle wrapper
+!gradle-wrapper.jar
+
+# Signing / Keystore files
+*.jks
+*.keystore
+*.pem
+
+# Unit test / coverage
+*.ec
+*.hprof
+
+# Logs
+navigation.json
+
+# APKs and archives
+*.apk
+*.ap_
+*.zip
+*.mp4
+
+# Proguard
+proguard/
+
+# NDK objects
+obj/
+
+# Git LFS tracked files (if any)
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Ignore heavy Gradle distribution files
+/wrapper/dists/
